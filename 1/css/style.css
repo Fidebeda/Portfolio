@@ -1,0 +1,343 @@
+/*  GENERAL */
+
+body{
+    color: whitesmoke;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(149, 57, 57, 0.7)), url("../img/praha.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after,
+.group:after,
+.menu:after{
+    content: " ";
+    display: table;
+}
+
+.container:after,
+.group:after,
+.menu:after{
+    clear: both;
+
+}
+
+.container,
+.group,
+.menu{
+    *zoom: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+strong{
+    font-weight: 600;
+}
+
+.menu{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.menu li{
+    float: left;
+}
+
+.fa{
+    vertical-align: middle;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* CONTACT */
+
+.contact-bar,
+.personal a{
+    color: white;
+
+}
+
+.contact-bar{
+    background-color: black;
+    height: 85px;
+    font-size: 15px;
+
+}
+
+.personal{
+    float: left;
+    margin-top: 25px;
+}
+
+.social{
+    float: right;
+    margin-top: 25px;
+}
+
+.personal li{
+    margin-right: 15px;
+}
+
+.personal .fa{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.social .fa{
+    font-size: 15px;
+    
+}
+
+a.social-icon{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    color: beige;
+    background-color: gray;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 5px;
+    
+    
+}
+
+.social-icon:hover,
+.social-icon:focus{
+    cursor: pointer;
+    color: #3b5998;
+    background-color: whitesmoke;
+}
+/* NAVIGATION */
+
+.nav-bar{
+    
+}
+
+.logo{
+    float: left;
+}
+
+.logo a{
+    display: block;
+    background: url("../img/favicona2.png") 0 0 no-repeat;
+    width: 180px;
+    height: 120px;
+    text-indent: -9999px;
+    background-size: cover;
+    /* background-attachment: fixed; */
+
+}
+
+.navigation{
+    float: right;
+}
+
+.navigation .fa{
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 80px;
+}
+
+.navigation li{
+    border-left: 2px solid white;
+}
+
+.navigation li:last-child{
+    border-right: 2px solid white;
+}
+
+.navigation a{
+    color: whitesmoke;
+    display: block;
+    width: 130px;
+    height: 115px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.selected a,
+.navigation a:hover,
+.navigation a:focus{
+    color: red;
+}
+
+/* nav ul li a i{
+    color: red;
+    border: 2px solid red;
+    display: block;
+} */
+
+
+/* ARTICLE */
+
+.text-center{
+    text-align: center;
+}
+
+.post-header{
+    height: 170px;
+    width: 100vw;
+    background: url("../img/1.jpg") center -1600px no-repeat;
+}
+
+.post-title{
+    color: whitesmoke;
+    font-style: 40px;
+    font-weight: 600;
+    background-color: rgba(149, 57, 57, 0.5);
+    padding: 20px 40px;
+    border-radius: 5px;
+    display: inline-block;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+
+.post-content{
+    
+    padding-bottom: 150px;
+}
+
+.post-content h2{
+    /* border: 2px solid red; */
+    font-weight: 400;
+    color: whitesmoke;
+    line-height: 42px;
+}
+
+
+
+.controls{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.controls a{
+    font-size: 26px;
+    font-weight: 600;
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding: 0 25px;
+    line-height: 40px;
+    display: block;
+    
+}
+
+.controls a:hover,
+.controls a:focus,
+.controls .selected a{
+    background: black;
+    color: white;
+    /* border-radius: 10px; */
+
+}
+
+.gallery{
+    margin-top: 20px;
+    font-size: 0;
+    
+
+}
+
+.gallery a img{
+    height: 350px;
+    width: 350px;
+    
+}
+
+/* FOOTER */
+
+.pre-footer{
+    color: whitesmoke;
+    background-color: #323232;
+    text-align: center;
+}
+
+.pre-footer .container{
+    width: 400px;
+    padding: 20px;
+}
+
+.pre-footer p{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.pre-footer strong{
+    font-size: 22px;
+    text-transform: none;
+   
+}
+
+.pre-footer .personal li:first-child{
+    margin-right: 40px;
+   
+}
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    color: whitesmoke;
+    background-color: black;
+    float: left;
+
+
+}
+
+footer p a{
+    color: white;
+    font-weight: 700;
+}
+
+footer .menu{
+    color: azure;
+    
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: right;
+}
+
+footer p,
+footer .menu{
+    
+    margin: 25px 0 25px 0;
+}
+
+footer ul li a{
+    padding: 10px;
+    color: whitesmoke;
+}
+
+footer li:after{
+    content: "/";
+    color: whitesmoke;
+}
+
+footer li:last-child:after{
+    content: none;
+}
+
+footer ul li a:hover,
+footer ul li a:focus{
+    text-decoration: underline;
+}
